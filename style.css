@@ -473,7 +473,9 @@ body{
 }
 
 .contatoflex{
-    display: flex;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -482,6 +484,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
 }
 
 .contato2{
@@ -491,6 +494,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
 }
 
 .subtitles2{
@@ -779,14 +783,12 @@ span{
     }
 
     .contato1{
-        margin-left: -70px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .contato2{
-        margin-left: -50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -798,10 +800,6 @@ span{
 
     .conteudosocial{
         margin-bottom: 15px;
-    }
-
-    .acordoflex{
-        margin-left: -30px;
     }
 
     .sintoma2{
